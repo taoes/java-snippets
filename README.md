@@ -1,5 +1,3 @@
-![封面](./doces/img/java_snip_logo.jpeg)
-
 ## 代码 & 三方库
 
 ###  [自定义类加载器](./class_loader/README.md)
@@ -15,10 +13,12 @@
 > MyBatis-Plus（简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的基础上只做增强不做改变，为简化开发、提高效率而生。
 
 
-### Guava
+### [Guava](https://github.com/google/guava)
+> Guava is a set of core Java libraries from Google that includes new collection types (such as multimap and multiset), immutable collections, a graph library, and utilities for concurrency, I/O, hashing, caching, primitives, strings, and more! It is widely used on most Java projects within Google, and widely used by many other companies as well.
 
 
-### Redisson
+### [Redisson](https://redisson.pro)
+> 内存型数据库Redis的Java客户端，支持超过50种类型的对象和服务: Set,Map，Queue，SpringCache，MyBatis，分布式锁等 
 
 
 
