@@ -8,19 +8,6 @@
 
 package com.taoes.compile;
 
-import java.io.File;
-import java.io.IOException;
-import java.net.URISyntaxException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Objects;
-import java.util.stream.Collectors;
-import javax.tools.JavaCompiler;
-import javax.tools.SimpleJavaFileObject;
-import javax.tools.StandardJavaFileManager;
-import javax.tools.ToolProvider;
-
 public class JavaCodeEval implements Compile {
 
     @Override
@@ -71,6 +58,6 @@ public class JavaCodeEval implements Compile {
 
 + 编译出的class文件
 
-![编译出的class文件](./doces/img/dynamic_compile.png)
+![编译出的class文件](../doces/img/dynamic_compile.png)
 
 

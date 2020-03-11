@@ -1,20 +1,67 @@
-# Java开发的奇淫巧技
-
-
 ![封面](./doces/img/java_snip_logo.jpeg)
 
+## 代码 & 三方库
 
-## 🔥 动态执行Java代码
-
-通过 JavaCodeEval 实现动态编译执行Java代码  [了解更多](./dynamic_compile/README.md)
-
-
-## 🔥 自定义类加载器
-
-类加载器是JVM一个非常重要的内容，我们可以通过自定义类加载器实现从网络中加载class。[了解更多](./class_loader/README.md)
+###  [自定义类加载器](./class_loader/README.md)
+>类加载器是 JVM 一个非常重要的内容，我们可以通过自定义类加载器实现从网络中甚至数据库中加载class。
 
 
-## 🔥 反序列化多态类型
 
-著名的Json 库 JackSon 特性支持多态反序列化, 可以根据接送类型的某个字段值来反序列化到不同的子类中，实现动态序列化 [了解更多](./jackson/README.md)
+### [反序列化多态类型](./jackson/README.md)
+> 著名的Json 库 JackSon 特性支持多态反序列化, 可以根据接送类型的某个字段值来反序列化到不同的子类中，实现动态序列化
+ 
+ 
+### [MyBatis Plus](https://mp.baomidou.com)
+> MyBatis-Plus（简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的基础上只做增强不做改变，为简化开发、提高效率而生。
 
+
+### Guava
+
+
+### Redisson
+
+
+
+
+
+
+## 插件类(Idea)
+
++ [JRebel](https://manuals.jrebel.com/jrebel/)
+> JRebel是一款JVM插件，它使得Java代码修改后不用重启系统，立即生效。IDEA上原生是不支持热部署的，一般更新了 Java 文件后要手动重启 Tomcat 服务器，才能生效，浪费时间浪费生命。
+  目前对于idea热部署最好的解决方案就是安装JRebel插件。
+
++ [Lombok](https://projectlombok.org/)
+> Lombok项目是一个Java库，它会自动插入编辑器和构建工具中，Lombok提供了一组有用的注释，用来消除Java类中的大量样板代码。仅五个字符(@Data)就可以替换数百行代码从而产生干净，简洁且易于维护的Java类。
+
++ [Google Java Format](https://github.com/google/google-java-format)
+> 一种推荐的代码格式化统一风格，支持IDEA，提供[插件形式](https://plugins.jetbrains.com/plugin/8527-google-java-format)和[配置文件](https://raw.githubusercontent.com/google/styleguide/gh-pages/intellij-java-google-style.xml)形式
+
++ [MyBatisX](https://mp.baomidou.com/guide/mybatisx-idea-plugin.html)
+> MyBatis Plus 出品， 由Mapper到跳转XML的便捷工具
+ 
+
+
+## 工具类 (Unix)
+
+### [Tmux 终端复用](http://tmux.github.io/) 
+> tmux is a terminal multiplexer. It lets you switch easily between several programs in one terminal, detach them (they keep running in the background) and reattach them to a different terminal.
+
+### zsh & Oh my Zsh (http://tmux.github.io/)  
+> 强大的Shell & 插件
+
+
+## DevOps
+
++ [Docker & Docker-compose & Docker Swarm](https://www.docker.com)
+> Debug your app, not your environment & Securely build and share any application, anywhere
+
++ [Kubernetes K8s From Google](https://kubernetes.io/docs/home/)
+> Kubernetes is an open source container orchestration engine for automating deployment, scaling, and management of containerized applications. The open source project is hosted by the Cloud Native Computing Foundation (CNCF).
+
+
++ [Sentry](https://sentry.io/welcome/)
+> Sentry provides self-hosted and cloud-based error monitoring that helps all software teams discover, triage, and prioritize errors in real-time.
+
++  [Prometheus](https://prometheus.io/)
+> Power your metrics and alerting with a leading open-source monitoring solution.
