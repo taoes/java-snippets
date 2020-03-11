@@ -1,3 +1,12 @@
+您可以通过以下导航来在 语雀 中访问我的读书笔记，涵盖了技术、服务端开发与基础架构、闲谈杂记等多个项目：
+
++ Java 系列 《[深入理解JVM虚拟机](https://www.yuque.com/tao_book/jvm)》 《[Java 并发编程](https://www.yuque.com/tao_book/java_concurrent)》《[Netty入门与实战](https://www.yuque.com/tao_book/netty)》
+
++ 数据库系利 《[高性能MySQL](https://www.yuque.com/tao_book/mysql)》
+
+
+----
+
 ## 代码 & 三方库
 
 ###  [自定义类加载器](./class_loader/README.md)
