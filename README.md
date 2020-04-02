@@ -7,6 +7,10 @@
 
 ----
 
+
+
+
+
 ## 代码 & 三方库
 
 ###  [自定义类加载器](./class_loader/README.md)
@@ -29,6 +33,39 @@
 ### [Redisson](https://redisson.pro)
 > 内存型数据库Redis的Java客户端，支持超过50种类型的对象和服务: Set,Map，Queue，SpringCache，MyBatis，分布式锁等 
 
+
+### 自定义参数转换器
+> 有的时候，前端传递的参数并不符合我们接口的参数类型，我们想对参数进行处理，这时候需要使用如下的代码配置,下面就完成当前前端传过来String，接口中却需要EntityId类型的问题
+
+```java
+public class StringToEntityIdConverterFactory implements ConverterFactory<String, EntityId> {
+  
+  @Override
+  public <T extends EntityId> Converter<String, T> getConverter(@NotNull Class<T> targetType) {
+    return source -> {
+      return new EntityId(1L);
+    };
+  }
+}
+
+```
+
+
+然后在转换机中注册
+
+```java
+// 路径参数/查询参数序列化
+@Configuration
+public class ParameterConverterConfig implements WebMvcConfigurer {
+
+  @Override
+  public void addFormatters(FormatterRegistry registry) {
+    registry.addConverterFactory(new StringToEntityIdConverterFactory());
+  }
+
+}
+
+```java
 
 
 
