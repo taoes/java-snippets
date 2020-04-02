@@ -50,9 +50,6 @@ public class StringToEntityIdConverterFactory implements ConverterFactory<String
 
 ```
 
-
-然后在转换机中注册
-
 ```java
 // 路径参数/查询参数序列化
 @Configuration
@@ -65,7 +62,7 @@ public class ParameterConverterConfig implements WebMvcConfigurer {
 
 }
 
-```java
+```
 
 
 
