@@ -1,12 +1,24 @@
+<div align=center>
+ <img alt="Java代码" width="320" src="http://www.zhoutao123.com/picture/book_convert/java.png"/>
+</div>
+
+
+
+<div style="height:20px"></div>
+
 您可以通过以下导航来在 语雀 中访问我的读书笔记，涵盖了技术、服务端开发与基础架构、闲谈杂记等多个项目：
 
-+ Java 系列 《[深入理解JVM虚拟机](https://www.yuque.com/tao_book/jvm)》 《[Java 并发编程](https://www.yuque.com/tao_book/java_concurrent)》《[Netty入门与实战](https://www.yuque.com/tao_book/netty)》
 
-+ 数据库系利 《[高性能MySQL](https://www.yuque.com/tao_book/mysql)》
+《[前端开发杂记](https://www.yuque.com/zhoutao123/front_end)》 
+《[设计模式](https://www.yuque.com/zhoutao123/design_pattern)》
+《[深入理解JVM虚拟机](https://www.yuque.com/zhoutao123/jvm)》
+《[Java 并发编程](https://www.yuque.com/zhoutao123/java_concurrent)》 
+《[Netty入门与实战](https://www.yuque.com/zhoutao123/netty)》
+《[高性能MySQL](https://www.yuque.com/zhoutao123/mysql)》
 
+> + [最新文档，请访问语雀文档](https://www.yuque.com/zhoutao123)
 
-----
-
+---
 
 
 
@@ -34,7 +46,7 @@
 > 内存型数据库Redis的Java客户端，支持超过50种类型的对象和服务: Set,Map，Queue，SpringCache，MyBatis，分布式锁等 
 
 
-### 自定义参数转换器
+### [自定义参数转换器](https://www.baeldung.com/spring-mvc-custom-data-binder)
 > 有的时候，前端传递的参数并不符合我们接口的参数类型，我们想对参数进行处理，这时候需要使用如下的代码配置,下面就完成当前前端传过来String，接口中却需要EntityId类型的问题
 
 ```java
